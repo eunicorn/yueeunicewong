@@ -1,0 +1,33 @@
+.jumbotron {
+    background-image: url(../img/ucsd.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 200;
+    font-size: 112px;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+abroad-section {
+    height: 5000px;
+}
+
+.panel-default > .panel-heading {
+    background: white;
+    border: 1px solid black;
+}
+
+.panel-default > .panel-heading > .panel-title {
+    padding-left: 20px;
+}
+
+.panel-default:hover .panel-heading {
+    background: #4d4f51;
+    border: 1px solid white;
+}

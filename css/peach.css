@@ -1,0 +1,47 @@
+.jumbotron {
+    background-image: url(../img/peach.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 200;
+    font-size: 112px;
+}
+
+.app-name{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    font-size: 100px;
+
+}
+
+
+.empty {
+    height: 100px;
+}
+.grape-section {
+    height: 3000px;
+}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+
+.panel-default > .panel-heading {
+    background: white;
+    border: 1px solid black;
+}
+
+.panel-default > .panel-heading > .panel-title {
+    padding-left: 20px;
+}
+
+.panel-default:hover .panel-heading {
+    background: #4d4f51;
+    border: 1px solid white;
+}

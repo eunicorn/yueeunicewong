@@ -1,0 +1,311 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: #F9EDE1;
+  /*background-image: url("../img/background.jpg");*/
+  background-size: cover ;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    background-color:#F9EDE1;
+    padding: 20px 200px 20px 200px;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  font-size: 100px;
+  font-weight: 100;
+  color: black;
+}
+
+.section {
+    height: 200px;
+    padding: 10px;
+}
+.section-skills{
+    height:250px;
+    padding: 10px;
+}
+.section-experience {
+    height: 900px;
+    padding: 10px;
+}
+
+.left{
+    width:20%;
+    float: left;
+}
+.right{
+    width: 80%;
+    float: right;
+}
+
+.one {
+    width: 26%;
+    float: left;
+}
+.two {
+    display: inline-block;
+    width: 26%
+}
+.three{
+    width: 26%;
+    float:right;
+}
+
+#headshot{
+    margin: 0 0 50px 50px;
+    float: right;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+h2 { font-size: 152% }
+.first h2 { font-style: italic; }
+.yui-gf { margin-bottom: 2em; padding-bottom: 2em; border-bottom: 1px solid #ccc; }
+.yui-gf .yui-u{width:80.2%;}
+.yui-gf div.first{width:12.3%;}
+p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
+
+
+h1 {
+  margin-bottom:30px;
+}
+
+p {
+  font-size:20px;
+}
+
+
+.navbar {
+  background-color: white;
+  border: 0;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+.navbar-nav {
+  text-align:center;
+}
+
+a.nav-active span {
+  border-bottom: 2px solid black;
+}
+
+a.nav-hover:hover span {
+  color: darkred;
+  border-bottom: 2px solid darkred;
+}
+
+/* buttons */
+
+.btn {
+  background-color: white;
+  border 0;
+  color: black;
+  width: 200px;
+  font-weight:900;
+}
+
+a.to-projects {
+  color: black;
+}
+a.to-projects:hover {
+  color: darkred;
+  border: 0;
+}
+
+.project {
+  padding-top: 100px;
+}
+
+li{
+  font-size:20px;
+}
+
+.welcome {
+  padding: 20px 50px 20px 50px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.design {
+  padding: 20px 50px 20px 50px;
+  margin-bottom: 30px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+}
+.my-resume {
+  background-color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Jumbotron */
+.jumbotron {
+  text-align: center;
+  height: 700px;
+  padding: 30px 15px;
+  background-color: none !important;
+  background-image: url("../img/design.jpg");
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+
+
+/* Zoom Images */
+.image-zoom-container {
+	list-style: none;
+	font-size: 0px;
+}
+.zoom-container {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 33.33%;
+	font-size: 16px;
+	font-size: 1rem;
+	border: 1px solid #fff;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.zoom-container1 {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	width: 33.33%;
+	font-size: 16px;
+	font-size: 1rem;
+	border: 1px solid #fff;
+	vertical-align: top;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.zoom-container img {
+	display: block;
+	width: 100%;
+	height: auto;
+	-webkit-transition: all .5s ease; /* Safari and Chrome */
+        -moz-transition: all .5s ease; /* Firefox */
+        -ms-transition: all .5s ease; /* IE 9 */
+        -o-transition: all .5s ease; /* Opera */
+        transition: all .5s ease;
+}
+.zoom-container .zoom-caption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	/*background: rgba(0, 0, 0, .5);*/
+	-webkit-transition: all .5s ease; /* Safari and Chrome */
+        -moz-transition: all .5s ease; /* Firefox */
+        -ms-transition: all .5s ease; /* IE 9 */
+        -o-transition: all .5s ease; /* Opera */
+        transition: all .5s ease;
+  color: transparent;
+}
+
+.zoom-container:hover img {
+	-webkit-transform:scale(1.25); /* Safari and Chrome */
+        -moz-transform:scale(1.25); /* Firefox */
+        -ms-transform:scale(1.25); /* IE 9 */
+        -o-transform:scale(1.25); /* Opera */
+         transform:scale(1.25);
+}
+
+.zoom-caption:hover .zoom-caption h3 {
+  display: block;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5em;
+	font-weight: 900;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 23% 0 0;
+	padding: 10px 0;
+	border-top: 5px solid rgba(255, 255, 255, .15);
+	border-bottom: 5px solid rgba(255, 255, 255, .15);
+}
+
+.zoom-container:hover .zoom-caption {
+	background: black;
+  color: white;
+  opacity: 0.8;
+}
+
+
+
+.zoom-container:hover .caption {
+    width:100%;
+    position: absolute;
+    background:#000;
+    background: -webkit-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -o-linear-gradient(bottom, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: linear-gradient(to top, #000 40%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.caption h3 {
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.contactme {
+  padding-bottom: 100px;
+}
+
+
+
+i{
+  font-size:80px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.view-design {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+ 
