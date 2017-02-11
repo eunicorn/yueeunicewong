@@ -296,6 +296,14 @@ a.nav-hover:hover span {
     }
 }
 
+@media (max-width: 650px) {
+     .project{
+       position: static;
+       overflow: none;
+       width: 100%;
+    }
+}
+
 @media (max-width: 400px) {
     .mobile-title{
         visibility: visible;
