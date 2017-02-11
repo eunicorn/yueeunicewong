@@ -234,6 +234,10 @@ a.nav-hover:hover span {
     width: 100%;
 }
 
+
+.mobile-title{
+    visibility: hidden;
+}
 /* Responsive */
 @media (max-width: 850px) {
 
@@ -293,6 +297,9 @@ a.nav-hover:hover span {
 }
 
 @media (max-width: 400px) {
+    .mobile-title{
+        visibility: visible;
+    }
     .container {
         width: 380px;
     }
@@ -314,15 +321,38 @@ a.nav-hover:hover span {
        overflow: none;
        width: 100%;
     }
-    #idesign, #icode, #iresearch {
-        /*content:url("img/mobile_homepage.jpg");*/
-        height: 300px;
+    #idesign{
+        content:url("../img/hk.jpg");
+        height: 600px;
         width: 100%;
         display: cover;
+        opacity: .5;
+        position: absolute;
+        z-index: -1;
     }
+   #icode{
+        content:url("../img/design.jpeg");
+        height: 600px;
+        width: 100%;
+        display: cover;
+        opacity: .5;
+        position: absolute;
+        z-index: -1;
+    }
+  #iresearch {
+        content:url("../img/beach.jpg");
+        height: 600px;
+        width: 100%;
+        display: cover;
+        opacity: .5;
+        position: absolute;
+        z-index: -1;
+    }
+
     #slideshow {
-        height:60px;
+        height:600px;
     }
+}
 
 @media (min-width: 992px) {
   .container {
