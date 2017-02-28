@@ -45,3 +45,8 @@ p, li {
     background: #4d4f51;
     border: 1px solid white;
 }
+
+.images {
+    height: 300px;
+    text-align: center;
+}
