@@ -100,7 +100,7 @@ a.nav-hover:hover span {
 
 /* introduction */
 .introduction{
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 60px 20px;
 }
 
 #headshot{
@@ -249,7 +249,10 @@ a.nav-hover:hover span {
 
     #slideshow {
         height: 450px;
+        padding: 0;
+        margin: 0;
     }
+    
     .captions {
         width: 50%;
         font-size: 1em;
@@ -307,6 +310,8 @@ a.nav-hover:hover span {
 @media (max-width: 400px) {
     .mobile-title{
         visibility: visible;
+        z-index: 1;
+        margin-left: 40%;
     }
     .container {
         width: 380px;
