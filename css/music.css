@@ -17,18 +17,8 @@
     font-size: 100px;
 
 }
-
-p {
-    font-size: 15px;
-}
-
 .music-section {
     height: 3500px;
-}
-
-.descriptions {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
 }
 
 .carousel-inner > .item > img, 

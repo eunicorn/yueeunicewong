@@ -17,7 +17,7 @@ body{
 }
 
 p {
-  font-size:20px;
+  font-size: 20px;
 }
 
 .section-title {
@@ -41,7 +41,8 @@ p {
 }
 
 li {
-    padding: 0px 30px 0px 30px;
+  padding: 0px 30px 0px 30px;
+  font-size: 20px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -100,7 +101,7 @@ a.nav-hover:hover span {
 
 /* introduction */
 .introduction{
-    padding: 20px 20px 60px 20px;
+    padding: 20px 20px 80px 20px;
 }
 
 #headshot{
@@ -112,7 +113,7 @@ a.nav-hover:hover span {
 
 .projects{
     height: 1650px;
-    padding-top: 20px;
+    padding-top: 75px;
     padding-bottom: 20px;
 }
 
@@ -305,6 +306,9 @@ a.nav-hover:hover span {
        overflow: none;
        width: 100%;
     }
+		.navbar {
+			padding: 0;
+		}
 }
 
 @media (max-width: 400px) {
@@ -380,6 +384,9 @@ a.nav-hover:hover span {
 
 
 /* buttons */
+button {
+	font-size: 24px;
+}
 #more {
     border: 1px solid black;
     background-color: white;
