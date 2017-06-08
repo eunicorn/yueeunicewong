@@ -110,6 +110,7 @@ a.nav-hover:hover span {
 #headshot{
     float: right;
     width: 25%;
+    margin: 0 50px;
 }
 
 /* projects */
