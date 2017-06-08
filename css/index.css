@@ -17,7 +17,7 @@ body{
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .section-title {
@@ -94,7 +94,7 @@ a.nav-hover:hover span {
 }
 
 #idesign, #iresearch, #icode {
-    height: 800px;
+    height: 700px;
     width: 100%;
 }
 
